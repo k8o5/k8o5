@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanyey</title>
-    <link rel="icon" type="image/png" href="kanyeypfp.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body, html {
             margin: 0;
@@ -20,102 +18,30 @@
             font-family: Arial, sans-serif;
             color: white;
             text-align: center;
-            overflow: hidden;
         }
 
         .container {
             text-align: center;
             max-width: 600px;
             width: 100%;
-            padding: 2rem;
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(5px);
-            border-radius: 20px;
-            transform: translateY(30px);
-            opacity: 0;
-            animation: fadeIn 1s forwards;
         }
 
         h1 {
             font-size: 3rem;
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            animation: glow 2s infinite;
+            margin-bottom: 1rem;
         }
 
         a {
             color: white;
             text-decoration: none;
             font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             display: block;
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            background: rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
-            backdrop-filter: blur(5px);
-            transform: translateX(-30px);
-            opacity: 0;
         }
-
-        a:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-        }
-
-        a:nth-child(2) { animation: slideIn 0.5s 0.2s forwards; }
-        a:nth-child(3) { animation: slideIn 0.5s 0.4s forwards; }
-        a:nth-child(4) { animation: slideIn 0.5s 0.6s forwards; }
 
         .ca-text {
             font-size: 1.2rem;
-            margin-top: 2rem;
-            padding: 1rem;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            opacity: 0;
-            animation: fadeIn 1s 0.8s forwards;
-        }
-
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes slideIn {
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes glow {
-            0%, 100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
-            50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
-        }
-
-        /* Add hover effect to background */
-        body::after {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.5) 100%);
-            z-index: -1;
-            animation: pulse 4s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.2); }
-            100% { transform: scale(1); }
+            margin-top: 1rem;
         }
 
         @media (max-width: 768px) {
@@ -125,16 +51,10 @@
 
             a {
                 font-size: 1.2rem;
-                margin-bottom: 1rem;
             }
 
             .ca-text {
                 font-size: 1rem;
-            }
-
-            .container {
-                padding: 1rem;
-                margin: 1rem;
             }
         }
     </style>
@@ -142,15 +62,9 @@
 <body>
     <div class="container">
         <h1>Kanyey</h1>
-        <a href="https://xxxxxx.com" target="_blank">
-            <i class="fas fa-shopping-cart"></i> Buy
-        </a>
-        <a href="https://t.me/+dzDdSPBEYW1jNTgy" target="_blank">
-            <i class="fab fa-telegram"></i> Telegram
-        </a>
-        <a href="https://x.com/kanyeycoin" target="_blank">
-            <i class="fab fa-x-twitter"></i> X
-        </a>
+        <a href="https://xxxxxx.com" target="_blank">Buy</a>
+        <a href="https://t.me/+dzDdSPBEYW1jNTgy" target="_blank">Telegram</a>
+        <a href="https://x.com/kanyeycoin" target="_blank">X</a>
         <div class="ca-text">CA: </div>
     </div>
 </body>
